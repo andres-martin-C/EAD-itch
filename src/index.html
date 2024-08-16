@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ead contador publico</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
 </head>
-<body>
-    
+
+<body class="m-0 p-0 ">
+    <nav>
+        <!-- Separador -->
+        <!-- <div class="h-5 w-full bg-[#1B396A]"></div> -->
+        <div class="flex gap-x-3 justify-between mx-3 items-center h-10 mt-2 ">
+            <img class="h-full" src="img/logo-tecnm.png" alt="Logo tecnm">
+            <div class="flex gap-x-1 items-center  h-10">
+                <div class="">
+                    <p class="text-right text-[10px] text-nowrap">TECNOLÓGICO NACIONAL DE MEXICO</p>
+                    <p class="text-right text-[8px]">INSTITUTO TECNOLÓGICO DE CHETUMAL</p>
+                    <div class="w-4/5 h-0.5 ml-auto bg-blue-600  mb-0.5"></div>
+                    <div class="w-4/5 h-0.5 bg-orange-400"></div>
+                </div>
+                <img src="img/logo-itch.jpg" class="h-full" alt="logo itch">
+            </div>
+        </div>
+        <!-- Menu  -->
+        <div class="hidden bg-[#1B396A] py-2 sm:flex justify-end items-center space-x-3 mt-2 pr-5 text-white">
+            <a class="hover:text-gray-300 " href="">Inicio</a>
+            <a class="hover:text-gray-300 " href="">Contacto</a>
+            <a class="hover:text-gray-300 " href="">Convocatoria 2024</a>
+            <a class="hover:text-gray-300 " href="">Modelo educativo</a>
+            <a class="hover:text-gray-300 " href="">Acceder a la plataforma</a>
+        </div>
+        <!-- Mobile Button -->
+        <div class="sm:hidden flex items-center justify-end pr-5 mt-2 bg-[#1B396A] py-2">
+            <button id="mobile-menu-button" class="border rounded ">
+                <svg id="svg1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 text-white hover:text-gray-300">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <svg id="svg2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 text-white hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="sm:hidden hidden flex  text-white space-y-2 pb-2 bg-[#1B396A]   pl-5 flex-col">
+            <a class="hover:text-gray-300 " href="">Inicio</a>
+            <a class="hover:text-gray-300 " href="">Contacto</a>
+            <a class="hover:text-gray-300 " href="">Convocatoria 2024</a>
+            <a class="hover:text-gray-300 " href="">Modelo educativo</a>
+            <a class="hover:text-gray-300 " href="">Acceder a la plataforma</a>
+        </div>
+    </nav>
+
 </body>
+
 </html>
