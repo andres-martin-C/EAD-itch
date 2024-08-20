@@ -852,6 +852,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-shadow-default {
+  text-shadow: 3px 0px 18px #FFFFFF, -3px 3px 3px #FF7700;
+}
+
 .hover\:border:hover {
   border-width: 1px;
 }
@@ -883,6 +887,10 @@ video {
 
   .sm\:hidden {
     display: none;
+  }
+
+  .sm\:text-shadow-none {
+    text-shadow: none;
   }
 }
 
